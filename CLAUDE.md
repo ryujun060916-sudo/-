@@ -22,18 +22,30 @@ site/
 ├── faq.html                  # よくあるご質問
 ├── access.html                # アクセス・診療時間
 ├── contact.html               # お問い合わせ
+├── privacy.html               # プライバシーポリシー（法務レビュー前のドラフト、要確認）
+├── 404.html                   # 404エラーページ（ホスティング環境側の紐付け設定は別途必要）
+├── robots.txt / sitemap.xml   # クローラー向け（sitemap.xmlのURLは本番ドメイン確定後に要確認）
+├── site.webmanifest           # PWA向けマニフェスト
+├── favicon.ico / favicon-*.png / apple-touch-icon.png  # 仮生成のプレースホルダー（本番用デザインに要差し替え）
 ├── news/
-│   └── kouku-scanner.html     # お知らせ記事（記事ページは news/ 配下に追加していく）
+│   ├── kouku-scanner.html     # お知らせ記事
+│   ├── summer-closure.html    # お知らせ記事
+│   └── saturday-slots.html    # お知らせ記事（記事ページは news/ 配下に追加していく）
 ├── partials/
-│   ├── header.html            # 共通ヘッダー（ロゴ・電話・WEB予約・グローバルナビ）
+│   ├── header.html            # 共通ヘッダー（ロゴ・電話・WEB予約・グローバルナビ＋Dentist構造化データ）
 │   └── footer.html            # 共通フッター＋予約／アクセスセクション（reserve）
 ├── css/
 │   └── style.css              # サイト全体のスタイル（単一CSSファイル、BEM風命名）
 ├── js/
 │   ├── include.js             # data-include 属性を使ったパーシャル読み込み・アクティブナビ判定
 │   └── contact-form.js        # お問い合わせフォームの挙動（Formspree未設定時はmailtoにフォールバック）
-└── assets/img/                # 画像（.webp中心、hero.pngのみPNG）
+└── assets/img/                # 画像（.webp中心、hero.pngのみPNG、ogp-image.pngはOGP共有用の仮生成画像）
 ```
+
+### SEO/メタ情報の実装状況
+- 全ページの `<head>` に `canonical` / `og:*` / `twitter:*` / favicon各種 / `theme-color` を実装済み。本番ドメインは仮で `https://www.oomori-dc.com/` を採用（クリーンな `.html` パス構成）。実際のホスティング環境が異なるURL構成になる場合は、各ページの `canonical` / `og:url` と `robots.txt` の `Sitemap:` 行、`sitemap.xml` 内の全URLを一括置換すること。
+- 構造化データ（JSON-LD）: `Dentist`（医院情報・診療時間）は `partials/header.html` に1箇所実装し、全ページに自動適用される。`BreadcrumbList` は各ページ個別に `<head>` 内へ実装。
+- OGP画像・favicon一式は本セッションで生成したプレースホルダー（ブランドカラー＋簡易アイコン）。本番公開前に正式なデザイン素材に差し替えることを推奨。
 
 ### パーシャル（共通部品）の仕組み
 - 各ページの `<body>` に `<div data-include="partials/header.html"></div>` のように配置する。
@@ -114,6 +126,9 @@ site/
 - `whitening.html`: ホワイトエッセンス公式の施術写真は掲載許諾取得後に差し替え予定。
 - `access.html`: 決済ブランドの公式ロゴ画像が未挿入。
 - `js/contact-form.js`: `CONTACT_FORM_ENDPOINT` が `YOUR_FORM_ID` のプレースホルダーのまま。Formspree等の実エンドポイントに差し替えるまでは、送信時に `mailto:` へのフォールバックで動作する仕様（意図的な暫定実装）。
+- `staff.html`（経歴・所属学会）と `access.html`（道順の説明文）に `〇〇` のプレースホルダーが残っている。実際の大学名・所属学会名・研修名・目印となる店舗名など、クリニックからの実データ提供待ち。
+- GA4／Search Console／OGP画像・favicon（正式デザイン）／本番ドメインなど、クライアント支給が必要な情報は未反映。詳細はリリース前チェックリストの確認結果を参照。
+- 各ページに残る `style="..."` インライン属性（一箇所限りのレイアウト調整）は外部化されていない。`<style>` タグ自体は排除済みだが、インライン属性の全面クラス化は未着手（規模が大きいため別途対応を検討）。
 
 ## ローカル確認方法
 
