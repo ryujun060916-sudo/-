@@ -363,6 +363,10 @@ img { display: block; max-width: 100%; }
   object-fit: cover;
 }
 
+.media-block__image--portrait img {
+  object-position: center top;
+}
+
 .media-block__content {
   display: flex;
   flex-direction: column;
