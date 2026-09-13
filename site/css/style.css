@@ -850,6 +850,19 @@ img { display: block; max-width: 100%; }
   align-items: start;
 }
 
+.content-wrap {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 96px 48px 0;
+}
+
+/* ===== Table scroll wrapper (for wide tables on narrow screens) ===== */
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .content-stack {
   display: flex;
   flex-direction: column;
@@ -1643,14 +1656,22 @@ img { display: block; max-width: 100%; }
 
 /* ===== Responsive ===== */
 @media (max-width: 1199px) {
-  .site-header__top { flex-wrap: wrap; gap: 20px 32px; }
+  .site-header__top { flex-wrap: wrap; gap: 20px 32px; padding: 20px 32px 18px; }
   .site-header__top span, .site-header__top a { white-space: nowrap; }
-  .site-header__nav { flex-wrap: wrap; gap: 14px 26px; }
+  .site-header__nav { flex-wrap: wrap; gap: 14px 26px; padding: 0 32px 18px; }
+
+  .section { padding: 72px 32px 0; }
+  .content-layout,
+  .content-wrap { padding: 72px 32px 0; }
+  .breadcrumb { padding: 32px 32px 48px; }
+  .intro { padding: 0 32px; }
+  .news-bar { padding: 18px 32px; }
 
   .media-block { grid-template-columns: minmax(0, 1fr); gap: 32px; }
   .menu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .reserve__inner,
-  .site-footer__inner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; }
+  .site-footer__inner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; padding-left: 32px; padding-right: 32px; }
+  .site-footer__bottom { padding-left: 32px; padding-right: 32px; }
 
   .content-layout { grid-template-columns: minmax(0, 1fr); }
   .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1658,40 +1679,93 @@ img { display: block; max-width: 100%; }
 }
 
 @media (max-width: 767px) {
-  .site-header__top { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .section { padding: 56px 20px 0; }
+  .content-layout,
+  .content-wrap { padding: 56px 20px 0; }
+  .breadcrumb { padding: 24px 20px 40px; }
+  .intro { padding: 0 20px; gap: 20px; }
+  .intro__title { font: 400 24px/1.55 "Shippori Mincho", serif; }
+  .news-bar { padding: 16px 20px; }
+  .section-heading__title { font: 400 24px/1.5 "Shippori Mincho", serif; }
+  .media-block__title { font: 400 23px/1.55 "Shippori Mincho", serif; }
+  .article__title { font: 400 24px/1.5 "Shippori Mincho", serif; }
+
+  .site-header__top { flex-direction: column; align-items: flex-start; gap: 20px; padding: 20px 20px 18px; }
+  .site-header__name { font: 400 24px/1.1 "Shippori Mincho", serif; letter-spacing: .08em; }
   .site-header__actions { flex-direction: column; align-items: stretch; width: 100%; gap: 16px; }
-  .site-header__tel { justify-content: space-between; }
+  .site-header__tel { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .site-header__tel-label { text-align: left; }
   .site-header__reserve { justify-content: center; }
-  .site-header__nav { flex-wrap: wrap; justify-content: flex-start; gap: 16px 24px; }
+  .site-header__nav { flex-wrap: wrap; justify-content: flex-start; gap: 16px 24px; padding: 0 20px 18px; }
+
+  .hero { height: 300px; }
+  .hero__content { padding: 0 24px; gap: 14px; }
+  .hero__title { font: 400 26px/1.5 "Shippori Mincho", serif; letter-spacing: .08em; }
+  .hero__subtitle { font: 400 13px/1.8 "Noto Sans JP", sans-serif; }
+
+  .page-hero { height: 240px; }
+  .page-hero--short { height: 180px; }
+  .page-hero__content { padding: 0 24px 32px; gap: 10px; }
+  .page-hero--short .page-hero__content { padding: 0 24px 26px; }
+  .page-hero__title { font: 400 26px/1.5 "Shippori Mincho", serif; letter-spacing: .08em; }
+  .page-hero--short .page-hero__title { font: 400 22px/1.5 "Shippori Mincho", serif; letter-spacing: .06em; }
 
   .anchor-grid,
   .menu-grid,
   .reserve__inner,
   .site-footer__inner { grid-template-columns: 1fr; }
 
-  .news-bar { flex-wrap: wrap; gap: 12px 16px; }
+  .reserve__inner,
+  .site-footer__inner { padding-left: 20px; padding-right: 20px; padding-top: 56px; padding-bottom: 56px; }
+  .site-footer__bottom { padding: 20px; flex-direction: column; align-items: flex-start; }
+  .reserve__clinic-name { font: 400 24px/1.4 "Shippori Mincho", serif; }
+  .reserve__tel span,
+  .cta-banner__tel span,
+  .contact-option__tel span { font: 300 26px/1 "Montserrat", sans-serif; }
+
+  .news-bar { flex-direction: column; align-items: stretch; gap: 10px; }
+  .news-bar__link { flex-wrap: wrap; gap: 8px 14px; }
+  .news-bar__text { flex-basis: 100%; }
+  .news-bar__more { margin-left: 0; }
 
   .step {
-    grid-template-columns: 64px minmax(0, 1fr);
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px;
   }
+  .step__number { width: 56px; height: 56px; font: 400 20px/1 "Montserrat", sans-serif; }
+
+  .flow-item {
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px;
+  }
+  .flow-item__number { width: 56px; height: 56px; font: 400 18px/1 "Cormorant Garamond", serif; }
+
+  .table-scroll table { min-width: 560px; }
 
   .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
 
   .merit-grid { grid-template-columns: minmax(0, 1fr); gap: 8px; }
   .merit-card { grid-column: span 1; aspect-ratio: auto; min-height: 140px; }
 
-  .definition-list--career { grid-template-columns: minmax(0, 1fr); }
-  .definition-list--career dt { padding-bottom: 0; }
-  .definition-list--career dd { border-top: 0; padding-top: 4px; }
+  .definition-list,
+  .policy-list { grid-template-columns: minmax(0, 1fr); }
+  .definition-list dt,
+  .policy-list dt { padding-bottom: 0; }
+  .definition-list dd,
+  .policy-list dd { border-top: 0; padding-top: 4px; }
 
   .two-col-grid,
   .contact-options,
   .article__compare { grid-template-columns: 1fr; }
 
   .form-row { grid-template-columns: 1fr; gap: 10px; }
+  .form-row label,
+  .form-row .form-label { padding-top: 0; }
   .form-date-row { grid-template-columns: 1fr; gap: 10px; }
+  .form-submit-btn { width: 100%; padding: 0 32px; }
 
-  .article-pager { grid-template-columns: 1fr; }
+  .article-pager { grid-template-columns: 1fr; gap: 12px; text-align: center; }
+  .article-pager__next { justify-self: center; }
 }
