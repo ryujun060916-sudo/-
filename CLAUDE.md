@@ -19,6 +19,7 @@ site/
 ├── clinic.html              # クリニック紹介
 ├── staff.html                # 院長・スタッフ紹介
 ├── whitening.html            # ホワイトニング（ホワイトエッセンス）詳細
+├── orthodontics.html          # 矯正歯科（インビザラインGo）詳細
 ├── faq.html                  # よくあるご質問
 ├── access.html                # アクセス・診療時間
 ├── contact.html               # お問い合わせ
@@ -114,7 +115,7 @@ site/
 
 - **医院名**: 大森歯科クリニック（英字: OOMORI DENTAL CLINIC）
 - **電話番号**: `03-5753-8173`（`tel:0357538173` として利用）
-- **住所**: 〒143-0016 東京都大田区大森北1丁目10−12 ガーデンホーム大森 1F・2F（JR大森駅 北口より徒歩3分）
+- **住所**: 〒143-0016 東京都大田区大森北1丁目10−12 ガーデンホーム大森 1F・2F（JR大森駅 東口より徒歩3分）
 - **診療時間**: 月・水・木・金・土・日・祝　午前 10:00-13:00／午後 平日15:00-19:00・土日祝14:30-18:00。**休診日: 火曜**
 - **WEB予約URL**: `https://ssl.haisha-yoyaku.jp/s2266232/login/serviceAppoint/index?SITE_CODE=hp`（外部予約システム、`target="_blank" rel="noopener"` を必ず付与）
 - **問い合わせ先メール**: `oomoridc@gmail.com`（`js/contact-form.js` のフォールバック先）
@@ -122,9 +123,8 @@ site/
 ## 未対応・要確認のTODO（サイト内コメントより）
 
 以下は各HTMLファイル内に `<!-- TODO: ... -->` として残っている未対応項目。関連ページを触る際は状況を確認すること。
-- `staff.html` / `faq.html` / `contact.html` / `whitening.html` / `access.html` / `news/kouku-scanner.html`: 各ページのヒーロー画像（21:9）が仮のまま、差し替え待ち。
+- `staff.html` / `faq.html` / `contact.html` / `whitening.html` / `access.html` / `orthodontics.html` / `news/kouku-scanner.html`: 各ページのヒーロー画像（21:9）が仮のまま、差し替え待ち。
 - `whitening.html`: ホワイトエッセンス公式の施術写真は掲載許諾取得後に差し替え予定。
-- `access.html`: 決済ブランドの公式ロゴ画像が未挿入。
 - `js/contact-form.js`: `CONTACT_FORM_ENDPOINT` が `YOUR_FORM_ID` のプレースホルダーのまま。Formspree等の実エンドポイントに差し替えるまでは、送信時に `mailto:` へのフォールバックで動作する仕様（意図的な暫定実装）。
 - `staff.html`（経歴・所属学会）と `access.html`（道順の説明文）に `〇〇` のプレースホルダーが残っている。実際の大学名・所属学会名・研修名・目印となる店舗名など、クリニックからの実データ提供待ち。
 - GA4／Search Console／OGP画像・favicon（正式デザイン）／本番ドメインなど、クライアント支給が必要な情報は未反映。詳細はリリース前チェックリストの確認結果を参照。
