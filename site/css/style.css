@@ -8,8 +8,8 @@ body {
   color: #1A1A1A;
 }
 
-a { color: #7A5D49; }
-a:hover { color: #634532; }
+a { color: #2F5D8C; }
+a:hover { color: #1F3A5F; }
 
 img { display: block; max-width: 100%; }
 
@@ -39,7 +39,7 @@ img { display: block; max-width: 100%; }
 .section-heading__rule {
   width: 60px;
   height: 3px;
-  background: #634532;
+  background: #1F3A5F;
 }
 
 .section-heading__lead {
@@ -52,7 +52,7 @@ img { display: block; max-width: 100%; }
 /* ===== Site header ===== */
 .site-header {
   background: #fff;
-  border-bottom: 1px solid #DED5CE;
+  border-bottom: 1px solid #D3DFEA;
 }
 
 .site-header__top {
@@ -71,13 +71,13 @@ img { display: block; max-width: 100%; }
 .site-header__eyebrow {
   font: 400 13px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .04em;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 .site-header__name {
   font: 400 32px/1.1 "Shippori Mincho", serif;
   letter-spacing: .14em;
-  color: #634532;
+  color: #1F3A5F;
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ img { display: block; max-width: 100%; }
 .site-header__tel-label {
   font: 400 13px/1.7 "Noto Sans JP", sans-serif;
   letter-spacing: .04em;
-  color: #746D69;
+  color: #5E6B7A;
   text-align: right;
 }
 
@@ -126,7 +126,7 @@ img { display: block; max-width: 100%; }
   gap: 12px;
   min-height: 56px;
   padding: 0 24px;
-  background: #7A5D49;
+  background: #2F5D8C;
   border-radius: 6px;
   text-decoration: none;
 }
@@ -164,8 +164,8 @@ img { display: block; max-width: 100%; }
 }
 
 .site-header__nav a.is-active {
-  color: #7A5D49;
-  border-bottom: 2px solid #7A5D49;
+  color: #2F5D8C;
+  border-bottom: 2px solid #2F5D8C;
   padding-bottom: 4px;
 }
 
@@ -178,7 +178,7 @@ img { display: block; max-width: 100%; }
 .hero__bg {
   position: absolute;
   inset: 0;
-  background: #3A2E28;
+  background: #17293D;
 }
 
 .hero__bg img {
@@ -210,14 +210,14 @@ img { display: block; max-width: 100%; }
   margin: 0;
   font: 400 42px/1.35 "Shippori Mincho", serif;
   letter-spacing: .14em;
-  color: #3C302C;
+  color: #16283D;
 }
 
 .hero__subtitle {
   margin: 0;
   font: 400 15px/1.9 "Noto Sans JP", sans-serif;
   letter-spacing: .08em;
-  color: #5C534D;
+  color: #46535F;
 }
 
 /* ===== News bar ===== */
@@ -226,8 +226,8 @@ img { display: block; max-width: 100%; }
   align-items: center;
   gap: 28px;
   padding: 18px 48px;
-  background: #F9F5F0;
-  border-bottom: 1px solid #DED5CE;
+  background: #F2F6FA;
+  border-bottom: 1px solid #D3DFEA;
 }
 
 .news-bar__link {
@@ -242,7 +242,7 @@ img { display: block; max-width: 100%; }
 .news-bar__tag {
   flex: none;
   padding: 6px 16px;
-  background: #7A5D49;
+  background: #2F5D8C;
   font: 500 12px/1.4 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
   color: #fff;
@@ -250,7 +250,7 @@ img { display: block; max-width: 100%; }
 
 .news-bar__date {
   font: 400 16px/1 "Cormorant Garamond", serif;
-  color: #746D69;
+  color: #5E6B7A;
   font-variant-numeric: tabular-nums;
 }
 
@@ -265,7 +265,7 @@ img { display: block; max-width: 100%; }
   margin-left: auto;
   font: 500 13px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
-  color: #7A5D49;
+  color: #2F5D8C;
   text-decoration: none;
 }
 
@@ -281,11 +281,11 @@ img { display: block; max-width: 100%; }
   align-items: center;
   justify-content: center;
   min-height: 64px;
-  border: 1px solid #B39784;
+  border: 1px solid #8AAECD;
   background: #fff;
   font: 400 17px/1.5 "Noto Sans JP", sans-serif;
   letter-spacing: .06em;
-  color: #7A5D49;
+  color: #2F5D8C;
   text-decoration: none;
 }
 
@@ -297,13 +297,13 @@ img { display: block; max-width: 100%; }
 }
 
 .menu-card {
-  border: 1px solid #DED5CE;
+  border: 1px solid #D3DFEA;
   background: #fff;
 }
 
 .menu-card__image {
   aspect-ratio: 16 / 10;
-  background: #EDE6E0;
+  background: #E9EFF6;
   overflow: hidden;
 }
 
@@ -324,18 +324,18 @@ img { display: block; max-width: 100%; }
   margin: 0;
   font: 500 20px/1.5 "Shippori Mincho", serif;
   letter-spacing: .06em;
-  color: #634532;
+  color: #1F3A5F;
 }
 
 .menu-card__title a {
-  color: #634532;
+  color: #1F3A5F;
   text-decoration: none;
 }
 
 .menu-card__desc {
   margin: 0;
   font: 400 14px/1.95 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 /* ===== About / staff media blocks ===== */
@@ -349,7 +349,7 @@ img { display: block; max-width: 100%; }
 .media-block__image {
   position: relative;
   aspect-ratio: 16 / 10;
-  background: #3A2E28;
+  background: #17293D;
   overflow: hidden;
 }
 
@@ -376,7 +376,7 @@ img { display: block; max-width: 100%; }
 .media-block__eyebrow {
   font: 400 11px/1 "Montserrat", sans-serif;
   letter-spacing: .28em;
-  color: #5C534D;
+  color: #46535F;
 }
 
 .media-block__title {
@@ -389,7 +389,7 @@ img { display: block; max-width: 100%; }
 .media-block__rule {
   width: 60px;
   height: 3px;
-  background: #634532;
+  background: #1F3A5F;
 }
 
 .media-block__text {
@@ -403,9 +403,9 @@ img { display: block; max-width: 100%; }
   align-self: flex-start;
   font: 500 15px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .08em;
-  color: #7A5D49;
+  color: #2F5D8C;
   text-decoration: none;
-  border-bottom: 1px solid #B39784;
+  border-bottom: 1px solid #8AAECD;
   padding-bottom: 8px;
 }
 
@@ -434,7 +434,7 @@ img { display: block; max-width: 100%; }
   width: 74px;
   height: 74px;
   border-radius: 50%;
-  background: #7A5D49;
+  background: #2F5D8C;
   color: #fff;
   display: flex;
   align-items: center;
@@ -459,28 +459,28 @@ img { display: block; max-width: 100%; }
 
 .policy-list dt {
   padding: 20px 0;
-  border-top: 1px solid #DED5CE;
+  border-top: 1px solid #D3DFEA;
   font: 500 15px/1.8 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 .policy-list dd {
   margin: 0;
   padding: 20px 0;
-  border-top: 1px solid #DED5CE;
+  border-top: 1px solid #D3DFEA;
   font: 400 16px/1.8 "Noto Sans JP", sans-serif;
   color: #1A1A1A;
 }
 
 .policy-list dt:last-of-type,
 .policy-list dd:last-of-type {
-  border-bottom: 1px solid #DED5CE;
+  border-bottom: 1px solid #D3DFEA;
 }
 
 .policy-note {
   margin: 0;
   font: 400 15px/1.9 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 /* ===== News list ===== */
@@ -494,16 +494,16 @@ img { display: block; max-width: 100%; }
   align-items: baseline;
   gap: 28px;
   padding: 22px 0;
-  border-top: 1px solid #DED5CE;
+  border-top: 1px solid #D3DFEA;
   text-decoration: none;
 }
 
-.news-list a:last-child { border-bottom: 1px solid #DED5CE; }
+.news-list a:last-child { border-bottom: 1px solid #D3DFEA; }
 
 .news-list__date {
   flex: none;
   font: 400 16px/1.6 "Cormorant Garamond", serif;
-  color: #746D69;
+  color: #5E6B7A;
   font-variant-numeric: tabular-nums;
 }
 
@@ -514,7 +514,7 @@ img { display: block; max-width: 100%; }
 
 /* ===== Reserve section ===== */
 .reserve {
-  background: #574A44;
+  background: #20456B;
   color: #fff;
 }
 
@@ -654,7 +654,7 @@ img { display: block; max-width: 100%; }
 
 /* ===== Site footer ===== */
 .site-footer {
-  background: #3C302C;
+  background: #16283D;
   color: #fff;
 }
 
@@ -742,7 +742,7 @@ img { display: block; max-width: 100%; }
 .page-hero {
   position: relative;
   height: 380px;
-  background: #3A2E28;
+  background: #17293D;
   overflow: hidden;
 }
 
@@ -757,11 +757,11 @@ img { display: block; max-width: 100%; }
 .page-hero__scrim {
   position: absolute;
   inset: 0;
-  background: rgba(42, 31, 25, .44);
+  background: rgba(12, 28, 46, .44);
   pointer-events: none;
 }
 
-.page-hero--short .page-hero__scrim { background: rgba(42, 31, 25, .46); }
+.page-hero--short .page-hero__scrim { background: rgba(12, 28, 46, .46); }
 
 .page-hero__content {
   position: absolute;
@@ -805,8 +805,8 @@ img { display: block; max-width: 100%; }
   font: 400 13px/1.7 "Noto Sans JP", sans-serif;
 }
 
-.breadcrumb a { color: #746D69; text-decoration: none; }
-.breadcrumb__sep { color: #5C534D; }
+.breadcrumb a { color: #5E6B7A; text-decoration: none; }
+.breadcrumb__sep { color: #46535F; }
 .breadcrumb__current { color: #1A1A1A; }
 
 /* ===== Intro (centered heading) ===== */
@@ -843,7 +843,7 @@ img { display: block; max-width: 100%; }
 .intro__divider {
   width: 100%;
   height: 1px;
-  background: #DED5CE;
+  background: #D3DFEA;
   margin-top: 12px;
 }
 
@@ -889,7 +889,7 @@ img { display: block; max-width: 100%; }
 
 /* ===== Sidebar ===== */
 .page-aside {
-  background: #F9F5F0;
+  background: #F2F6FA;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -910,7 +910,7 @@ img { display: block; max-width: 100%; }
 .page-aside__instagram span {
   font: 400 12px/1 "Montserrat", sans-serif;
   letter-spacing: .16em;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 .page-aside__group {
@@ -923,17 +923,17 @@ img { display: block; max-width: 100%; }
   margin: 0 0 8px;
   font: 500 18px/1.5 "Shippori Mincho", serif;
   letter-spacing: .08em;
-  color: #634532;
+  color: #1F3A5F;
   text-align: center;
   padding-bottom: 14px;
-  border-bottom: 1px solid #B39784;
+  border-bottom: 1px solid #8AAECD;
 }
 
 .page-aside__link {
   display: flex;
   align-items: center;
   min-height: 54px;
-  border-bottom: 1px dotted #DED5CE;
+  border-bottom: 1px dotted #D3DFEA;
   font: 400 15px/1.6 "Noto Sans JP", sans-serif;
   color: #1A1A1A;
   text-decoration: none;
@@ -957,21 +957,21 @@ img { display: block; max-width: 100%; }
 
 .definition-list dt {
   padding: 18px 0;
-  border-top: 1px solid #DED5CE;
+  border-top: 1px solid #D3DFEA;
   font: 500 15px/1.8 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 .definition-list dd {
   margin: 0;
   padding: 18px 0;
-  border-top: 1px solid #DED5CE;
+  border-top: 1px solid #D3DFEA;
   font: 400 16px/1.8 "Noto Sans JP", sans-serif;
   color: #1A1A1A;
 }
 
 .definition-list dt:last-of-type,
-.definition-list dd:last-of-type { border-bottom: 1px solid #DED5CE; }
+.definition-list dd:last-of-type { border-bottom: 1px solid #D3DFEA; }
 
 .definition-list--career dt {
   font: 400 15px/1.8 "Montserrat", sans-serif;
@@ -994,7 +994,7 @@ img { display: block; max-width: 100%; }
 
 .gallery-item__image {
   aspect-ratio: 16 / 10;
-  background: #EDE6E0;
+  background: #E9EFF6;
   overflow: hidden;
 }
 
@@ -1006,13 +1006,13 @@ img { display: block; max-width: 100%; }
 
 .gallery-item figcaption {
   font: 400 14px/1.7 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 /* ===== Generic photo box ===== */
 .photo-box {
   aspect-ratio: 16 / 10;
-  background: #EDE6E0;
+  background: #E9EFF6;
   overflow: hidden;
 }
 
@@ -1033,7 +1033,7 @@ img { display: block; max-width: 100%; }
   align-self: flex-start;
   padding: 11px 20px;
   background: #F1F3F7;
-  border-left: 9px solid #7A5D49;
+  border-left: 9px solid #2F5D8C;
   font: 500 17px/1.5 "Noto Sans JP", sans-serif;
   letter-spacing: .06em;
   color: #1A1A1A;
@@ -1052,7 +1052,7 @@ img { display: block; max-width: 100%; }
   align-items: center;
   justify-content: center;
   min-height: 82px;
-  background: #7A5D49;
+  background: #2F5D8C;
   font: 500 24px/1.5 "Shippori Mincho", serif;
   letter-spacing: .1em;
   color: #fff;
@@ -1075,7 +1075,7 @@ img { display: block; max-width: 100%; }
   justify-content: center;
   padding: 20px;
   font: 400 18px/1.65 "Noto Sans JP", sans-serif;
-  color: #7A5D49;
+  color: #2F5D8C;
   text-align: center;
 }
 
@@ -1104,11 +1104,11 @@ img { display: block; max-width: 100%; }
 
 /* ===== Asset placeholder (pending real photo/logo) ===== */
 .asset-placeholder {
-  background: repeating-linear-gradient(135deg, #E4DBD3 0 10px, #EDE6E0 10px 20px);
+  background: repeating-linear-gradient(135deg, #DCE5EE 0 10px, #E9EFF6 10px 20px);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7A5D49;
+  color: #2F5D8C;
   font: 400 12px/1.6 ui-monospace, Menlo, monospace;
   letter-spacing: .06em;
   text-align: center;
@@ -1122,7 +1122,7 @@ img { display: block; max-width: 100%; }
   align-items: center;
   gap: 24px;
   padding: 56px 32px;
-  background: #F9F5F0;
+  background: #F2F6FA;
   text-align: center;
 }
 
@@ -1149,7 +1149,7 @@ img { display: block; max-width: 100%; }
 
 .cta-banner__note {
   font: 400 14px/1.8 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 .cta-banner__button {
@@ -1158,7 +1158,7 @@ img { display: block; max-width: 100%; }
   justify-content: center;
   min-height: 56px;
   padding: 0 32px;
-  background: #7A5D49;
+  background: #2F5D8C;
   border-radius: 6px;
   font: 500 16px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .08em;
@@ -1189,7 +1189,7 @@ img { display: block; max-width: 100%; }
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: #7A5D49;
+  background: #2F5D8C;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1226,13 +1226,13 @@ img { display: block; max-width: 100%; }
   flex-direction: column;
   gap: 14px;
   padding: 32px;
-  background: #F9F5F0;
+  background: #F2F6FA;
 }
 
 .info-card__eyebrow {
   font: 400 11px/1 "Montserrat", sans-serif;
   letter-spacing: .24em;
-  color: #5C534D;
+  color: #46535F;
 }
 
 .info-card__title {
@@ -1256,7 +1256,7 @@ img { display: block; max-width: 100%; }
 }
 
 .faq-item {
-  border: 1px solid #DED5CE;
+  border: 1px solid #D3DFEA;
   background: #fff;
 }
 
@@ -1276,14 +1276,14 @@ img { display: block; max-width: 100%; }
 .faq-item__q {
   flex: none;
   font: 400 20px/1 "Cormorant Garamond", serif;
-  color: #5C534D;
+  color: #46535F;
 }
 
 .faq-item__mark {
   margin-left: auto;
   flex: none;
   font: 300 22px/1 "Montserrat", sans-serif;
-  color: #7A5D49;
+  color: #2F5D8C;
   transition: transform 180ms ease;
 }
 
@@ -1311,13 +1311,13 @@ img { display: block; max-width: 100%; }
   align-items: center;
   gap: 16px;
   padding: 40px 32px;
-  background: #F9F5F0;
+  background: #F2F6FA;
 }
 
 .contact-option__eyebrow {
   font: 400 11px/1 "Montserrat", sans-serif;
   letter-spacing: .24em;
-  color: #5C534D;
+  color: #46535F;
 }
 
 .contact-option__title {
@@ -1343,7 +1343,7 @@ img { display: block; max-width: 100%; }
 
 .contact-option__note {
   font: 400 14px/1.8 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
   text-align: center;
 }
 
@@ -1360,7 +1360,7 @@ img { display: block; max-width: 100%; }
   justify-content: center;
   min-height: 56px;
   padding: 0 32px;
-  background: #7A5D49;
+  background: #2F5D8C;
   border-radius: 6px;
   font: 500 16px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .08em;
@@ -1372,7 +1372,7 @@ img { display: block; max-width: 100%; }
 .contact-form {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid #DED5CE;
+  border-top: 1px solid #D3DFEA;
 }
 
 .form-row {
@@ -1380,7 +1380,7 @@ img { display: block; max-width: 100%; }
   grid-template-columns: 220px minmax(0, 1fr);
   gap: 24px;
   padding: 26px 0;
-  border-bottom: 1px solid #DED5CE;
+  border-bottom: 1px solid #D3DFEA;
   align-items: start;
 }
 
@@ -1398,7 +1398,7 @@ img { display: block; max-width: 100%; }
   box-sizing: border-box;
   min-height: 52px;
   padding: 0 16px;
-  border: 1px solid #DED5CE;
+  border: 1px solid #D3DFEA;
   background: #fff;
   font-size: 16px;
   color: #1A1A1A;
@@ -1408,7 +1408,7 @@ img { display: block; max-width: 100%; }
 .form-input:focus,
 .form-textarea:focus,
 .form-select:focus {
-  outline: 2px solid #7A5D49;
+  outline: 2px solid #2F5D8C;
   outline-offset: 1px;
 }
 
@@ -1417,7 +1417,7 @@ img { display: block; max-width: 100%; }
   box-sizing: border-box;
   min-height: 52px;
   padding: 0 16px;
-  border: 1px solid #DED5CE;
+  border: 1px solid #D3DFEA;
   background: #fff;
   font-size: 16px;
   color: #1A1A1A;
@@ -1428,7 +1428,7 @@ img { display: block; max-width: 100%; }
   width: 100%;
   box-sizing: border-box;
   padding: 14px 16px;
-  border: 1px solid #DED5CE;
+  border: 1px solid #D3DFEA;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -1439,7 +1439,7 @@ img { display: block; max-width: 100%; }
 
 .form-hint {
   font: 400 14px/1.8 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
 }
 
 .form-radio-group {
@@ -1461,7 +1461,7 @@ img { display: block; max-width: 100%; }
 .form-radio-group input {
   width: 18px;
   height: 18px;
-  accent-color: #7A5D49;
+  accent-color: #2F5D8C;
 }
 
 .form-date-row {
@@ -1473,8 +1473,8 @@ img { display: block; max-width: 100%; }
 .form-notice {
   margin: 0;
   padding: 18px 22px;
-  background: #F9F5F0;
-  border-left: 4px solid #B39784;
+  background: #F2F6FA;
+  border-left: 4px solid #8AAECD;
   font: 400 15px/1.9 "Noto Sans JP", sans-serif;
   color: #1A1A1A;
 }
@@ -1502,7 +1502,7 @@ img { display: block; max-width: 100%; }
   height: 18px;
   margin-top: 4px;
   flex: none;
-  accent-color: #7A5D49;
+  accent-color: #2F5D8C;
 }
 
 .form-submit-btn {
@@ -1512,7 +1512,7 @@ img { display: block; max-width: 100%; }
   min-height: 64px;
   padding: 0 64px;
   border: none;
-  background: #7A5D49;
+  background: #2F5D8C;
   border-radius: 6px;
   font: 500 18px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
@@ -1520,11 +1520,11 @@ img { display: block; max-width: 100%; }
   cursor: pointer;
 }
 
-.form-submit-btn:hover { background: #634532; }
+.form-submit-btn:hover { background: #1F3A5F; }
 
 .form-status {
   font: 400 14px/1.8 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
   text-align: center;
 }
 
@@ -1545,7 +1545,7 @@ img { display: block; max-width: 100%; }
 .article__tag {
   flex: none;
   padding: 6px 16px;
-  background: #7A5D49;
+  background: #2F5D8C;
   font: 500 12px/1.4 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
   color: #fff;
@@ -1553,7 +1553,7 @@ img { display: block; max-width: 100%; }
 
 .article__date {
   font: 400 18px/1 "Cormorant Garamond", serif;
-  color: #746D69;
+  color: #5E6B7A;
   font-variant-numeric: tabular-nums;
 }
 
@@ -1567,7 +1567,7 @@ img { display: block; max-width: 100%; }
 .article__rule {
   width: 60px;
   height: 3px;
-  background: #634532;
+  background: #1F3A5F;
   margin: 26px 0 0;
 }
 
@@ -1586,7 +1586,7 @@ img { display: block; max-width: 100%; }
   margin: 48px 0 0;
   font: 500 24px/1.6 "Shippori Mincho", serif;
   letter-spacing: .06em;
-  color: #634532;
+  color: #1F3A5F;
 }
 
 .article h3 + p { margin-top: 18px; }
@@ -1594,7 +1594,7 @@ img { display: block; max-width: 100%; }
 .article__note {
   margin: 18px 0 0 !important;
   font: 400 15px/1.95 "Noto Sans JP", sans-serif !important;
-  color: #746D69 !important;
+  color: #5E6B7A !important;
 }
 
 .article__compare {
@@ -1612,15 +1612,15 @@ img { display: block; max-width: 100%; }
   background: #F4EFEA;
 }
 
-.compare-card--after { background: #F9F5F0; border: 1px solid #B39784; }
+.compare-card--after { background: #F2F6FA; border: 1px solid #8AAECD; }
 
 .compare-card__eyebrow {
   font: 400 11px/1 "Montserrat", sans-serif;
   letter-spacing: .24em;
-  color: #5C534D;
+  color: #46535F;
 }
 
-.compare-card--after .compare-card__eyebrow { color: #5C534D; }
+.compare-card--after .compare-card__eyebrow { color: #46535F; }
 
 .compare-card__title {
   margin: 0;
@@ -1632,7 +1632,7 @@ img { display: block; max-width: 100%; }
 .compare-card__text {
   margin: 0;
   font: 400 15px/1.95 "Noto Sans JP", sans-serif;
-  color: #5C534D;
+  color: #46535F;
 }
 
 .article-pager {
@@ -1642,12 +1642,12 @@ img { display: block; max-width: 100%; }
   align-items: center;
   padding: 32px 0 0;
   margin: 48px 0 0;
-  border-top: 1px solid #DED5CE;
+  border-top: 1px solid #D3DFEA;
 }
 
 .article-pager a {
   font: 400 15px/1.7 "Noto Sans JP", sans-serif;
-  color: #746D69;
+  color: #5E6B7A;
   text-decoration: none;
 }
 
@@ -1655,8 +1655,8 @@ img { display: block; max-width: 100%; }
   justify-self: center;
   font: 500 15px/1 "Noto Sans JP", sans-serif !important;
   letter-spacing: .08em;
-  color: #7A5D49 !important;
-  border-bottom: 1px solid #B39784;
+  color: #2F5D8C !important;
+  border-bottom: 1px solid #8AAECD;
   padding-bottom: 6px;
 }
 
