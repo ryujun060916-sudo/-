@@ -8,8 +8,8 @@ body {
   color: #1A1A1A;
 }
 
-a { color: #2F5D8C; }
-a:hover { color: #1F3A5F; }
+a { color: #0A6FA8; }
+a:hover { color: #075A8A; }
 
 img { display: block; max-width: 100%; }
 
@@ -39,7 +39,7 @@ img { display: block; max-width: 100%; }
 .section-heading__rule {
   width: 60px;
   height: 3px;
-  background: #1F3A5F;
+  background: #075A8A;
 }
 
 .section-heading__lead {
@@ -77,7 +77,7 @@ img { display: block; max-width: 100%; }
 .site-header__name {
   font: 400 32px/1.1 "Shippori Mincho", serif;
   letter-spacing: .14em;
-  color: #1F3A5F;
+  color: #075A8A;
   text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ img { display: block; max-width: 100%; }
   gap: 12px;
   min-height: 56px;
   padding: 0 24px;
-  background: #2F5D8C;
+  background: #0A6FA8;
   border-radius: 6px;
   text-decoration: none;
 }
@@ -164,8 +164,8 @@ img { display: block; max-width: 100%; }
 }
 
 .site-header__nav a.is-active {
-  color: #2F5D8C;
-  border-bottom: 2px solid #2F5D8C;
+  color: #0A6FA8;
+  border-bottom: 2px solid #0A6FA8;
   padding-bottom: 4px;
 }
 
@@ -178,7 +178,7 @@ img { display: block; max-width: 100%; }
 .hero__bg {
   position: absolute;
   inset: 0;
-  background: #17293D;
+  background: #075A8A;
 }
 
 .hero__bg img {
@@ -210,7 +210,7 @@ img { display: block; max-width: 100%; }
   margin: 0;
   font: 400 42px/1.35 "Shippori Mincho", serif;
   letter-spacing: .14em;
-  color: #16283D;
+  color: #075A8A;
 }
 
 .hero__subtitle {
@@ -242,7 +242,7 @@ img { display: block; max-width: 100%; }
 .news-bar__tag {
   flex: none;
   padding: 6px 16px;
-  background: #2F5D8C;
+  background: #0A6FA8;
   font: 500 12px/1.4 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
   color: #fff;
@@ -265,7 +265,7 @@ img { display: block; max-width: 100%; }
   margin-left: auto;
   font: 500 13px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
-  color: #2F5D8C;
+  color: #0A6FA8;
   text-decoration: none;
 }
 
@@ -285,7 +285,7 @@ img { display: block; max-width: 100%; }
   background: #fff;
   font: 400 17px/1.5 "Noto Sans JP", sans-serif;
   letter-spacing: .06em;
-  color: #2F5D8C;
+  color: #0A6FA8;
   text-decoration: none;
 }
 
@@ -324,11 +324,11 @@ img { display: block; max-width: 100%; }
   margin: 0;
   font: 500 20px/1.5 "Shippori Mincho", serif;
   letter-spacing: .06em;
-  color: #1F3A5F;
+  color: #075A8A;
 }
 
 .menu-card__title a {
-  color: #1F3A5F;
+  color: #075A8A;
   text-decoration: none;
 }
 
@@ -349,7 +349,7 @@ img { display: block; max-width: 100%; }
 .media-block__image {
   position: relative;
   aspect-ratio: 16 / 10;
-  background: #17293D;
+  background: #075A8A;
   overflow: hidden;
 }
 
@@ -389,7 +389,7 @@ img { display: block; max-width: 100%; }
 .media-block__rule {
   width: 60px;
   height: 3px;
-  background: #1F3A5F;
+  background: #075A8A;
 }
 
 .media-block__text {
@@ -403,7 +403,7 @@ img { display: block; max-width: 100%; }
   align-self: flex-start;
   font: 500 15px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .08em;
-  color: #2F5D8C;
+  color: #0A6FA8;
   text-decoration: none;
   border-bottom: 1px solid #8AAECD;
   padding-bottom: 8px;
@@ -434,7 +434,7 @@ img { display: block; max-width: 100%; }
   width: 74px;
   height: 74px;
   border-radius: 50%;
-  background: #2F5D8C;
+  background: #0A6FA8;
   color: #fff;
   display: flex;
   align-items: center;
@@ -514,7 +514,7 @@ img { display: block; max-width: 100%; }
 
 /* ===== Reserve section ===== */
 .reserve {
-  background: #20456B;
+  background: #0A6FA8;
   color: #fff;
 }
 
@@ -654,7 +654,7 @@ img { display: block; max-width: 100%; }
 
 /* ===== Site footer ===== */
 .site-footer {
-  background: #16283D;
+  background: #075A8A;
   color: #fff;
 }
 
@@ -742,7 +742,7 @@ img { display: block; max-width: 100%; }
 .page-hero {
   position: relative;
   height: 380px;
-  background: #17293D;
+  background: #075A8A;
   overflow: hidden;
 }
 
@@ -757,11 +757,11 @@ img { display: block; max-width: 100%; }
 .page-hero__scrim {
   position: absolute;
   inset: 0;
-  background: rgba(12, 28, 46, .44);
+  background: rgba(7, 90, 138, .44);
   pointer-events: none;
 }
 
-.page-hero--short .page-hero__scrim { background: rgba(12, 28, 46, .46); }
+.page-hero--short .page-hero__scrim { background: rgba(7, 90, 138, .46); }
 
 .page-hero__content {
   position: absolute;
@@ -923,7 +923,7 @@ img { display: block; max-width: 100%; }
   margin: 0 0 8px;
   font: 500 18px/1.5 "Shippori Mincho", serif;
   letter-spacing: .08em;
-  color: #1F3A5F;
+  color: #075A8A;
   text-align: center;
   padding-bottom: 14px;
   border-bottom: 1px solid #8AAECD;
@@ -1033,7 +1033,7 @@ img { display: block; max-width: 100%; }
   align-self: flex-start;
   padding: 11px 20px;
   background: #F1F3F7;
-  border-left: 9px solid #2F5D8C;
+  border-left: 9px solid #0A6FA8;
   font: 500 17px/1.5 "Noto Sans JP", sans-serif;
   letter-spacing: .06em;
   color: #1A1A1A;
@@ -1052,7 +1052,7 @@ img { display: block; max-width: 100%; }
   align-items: center;
   justify-content: center;
   min-height: 82px;
-  background: #2F5D8C;
+  background: #0A6FA8;
   font: 500 24px/1.5 "Shippori Mincho", serif;
   letter-spacing: .1em;
   color: #fff;
@@ -1075,7 +1075,7 @@ img { display: block; max-width: 100%; }
   justify-content: center;
   padding: 20px;
   font: 400 18px/1.65 "Noto Sans JP", sans-serif;
-  color: #2F5D8C;
+  color: #0A6FA8;
   text-align: center;
 }
 
@@ -1108,7 +1108,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #2F5D8C;
+  color: #0A6FA8;
   font: 400 12px/1.6 ui-monospace, Menlo, monospace;
   letter-spacing: .06em;
   text-align: center;
@@ -1158,7 +1158,7 @@ img { display: block; max-width: 100%; }
   justify-content: center;
   min-height: 56px;
   padding: 0 32px;
-  background: #2F5D8C;
+  background: #0A6FA8;
   border-radius: 6px;
   font: 500 16px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .08em;
@@ -1189,7 +1189,7 @@ img { display: block; max-width: 100%; }
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: #2F5D8C;
+  background: #0A6FA8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1283,7 +1283,7 @@ img { display: block; max-width: 100%; }
   margin-left: auto;
   flex: none;
   font: 300 22px/1 "Montserrat", sans-serif;
-  color: #2F5D8C;
+  color: #0A6FA8;
   transition: transform 180ms ease;
 }
 
@@ -1360,7 +1360,7 @@ img { display: block; max-width: 100%; }
   justify-content: center;
   min-height: 56px;
   padding: 0 32px;
-  background: #2F5D8C;
+  background: #0A6FA8;
   border-radius: 6px;
   font: 500 16px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .08em;
@@ -1408,7 +1408,7 @@ img { display: block; max-width: 100%; }
 .form-input:focus,
 .form-textarea:focus,
 .form-select:focus {
-  outline: 2px solid #2F5D8C;
+  outline: 2px solid #0A6FA8;
   outline-offset: 1px;
 }
 
@@ -1461,7 +1461,7 @@ img { display: block; max-width: 100%; }
 .form-radio-group input {
   width: 18px;
   height: 18px;
-  accent-color: #2F5D8C;
+  accent-color: #0A6FA8;
 }
 
 .form-date-row {
@@ -1502,7 +1502,7 @@ img { display: block; max-width: 100%; }
   height: 18px;
   margin-top: 4px;
   flex: none;
-  accent-color: #2F5D8C;
+  accent-color: #0A6FA8;
 }
 
 .form-submit-btn {
@@ -1512,7 +1512,7 @@ img { display: block; max-width: 100%; }
   min-height: 64px;
   padding: 0 64px;
   border: none;
-  background: #2F5D8C;
+  background: #0A6FA8;
   border-radius: 6px;
   font: 500 18px/1 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
@@ -1520,7 +1520,7 @@ img { display: block; max-width: 100%; }
   cursor: pointer;
 }
 
-.form-submit-btn:hover { background: #1F3A5F; }
+.form-submit-btn:hover { background: #075A8A; }
 
 .form-status {
   font: 400 14px/1.8 "Noto Sans JP", sans-serif;
@@ -1545,7 +1545,7 @@ img { display: block; max-width: 100%; }
 .article__tag {
   flex: none;
   padding: 6px 16px;
-  background: #2F5D8C;
+  background: #0A6FA8;
   font: 500 12px/1.4 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
   color: #fff;
@@ -1567,7 +1567,7 @@ img { display: block; max-width: 100%; }
 .article__rule {
   width: 60px;
   height: 3px;
-  background: #1F3A5F;
+  background: #075A8A;
   margin: 26px 0 0;
 }
 
@@ -1586,7 +1586,7 @@ img { display: block; max-width: 100%; }
   margin: 48px 0 0;
   font: 500 24px/1.6 "Shippori Mincho", serif;
   letter-spacing: .06em;
-  color: #1F3A5F;
+  color: #075A8A;
 }
 
 .article h3 + p { margin-top: 18px; }
@@ -1655,7 +1655,7 @@ img { display: block; max-width: 100%; }
   justify-self: center;
   font: 500 15px/1 "Noto Sans JP", sans-serif !important;
   letter-spacing: .08em;
-  color: #2F5D8C !important;
+  color: #0A6FA8 !important;
   border-bottom: 1px solid #8AAECD;
   padding-bottom: 6px;
 }
